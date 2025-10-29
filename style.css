@@ -1,13 +1,57 @@
-main{
-     display: flex;
-     align-items: center;
-     flex-direction: column;
+body{
+      padding: 0px;
+      margin: 0px;
 }
+
+main{
+      padding: 93px;
+      margin: 0px;
+     display: flex;
+     justify-content: space-around;
+    
+     text-align: center;
+     background-color: #000000ea;
+}
+
+main img{
+      height: 289px;
+      margin-bottom: -130px;
+}
+
+#scor-div{
+      padding-top: 110px;
+}
+#scor-div div{
+       background-color: #80748714;
+       padding: 12px;
+       padding-bottom: 63px;
+       border-radius: 90px;
+}
+
+#p1{
+       width: 624px;
+}
+
+
+main h3{
+      font-family: "Irish Grover", system-ui;
+      font-weight: 400;
+      font-size: 53px;
+      display: flex;
+      justify-content: center;
+      color: #AA04D7;
+      font-style: normal;
+      align-items: center;
+      margin-bottom: -10px;
+}   
+
+
+
 main h1{
     padding-bottom: 18px;
 }
 .contener{
-     background-color: rgba(0, 0, 0, 0.813);
+     background-color: rgba(56, 53, 56, 0.16);
      width: 40%;
      padding: 23px;
      border-radius: 34px;
@@ -36,7 +80,7 @@ main h1{
     margin: 0px;
     padding: 0px;
     border-radius: 12px;
-    height: 144px;
+    height: 174px;
 }
 
 .cart:hover{
@@ -77,4 +121,21 @@ main h1{
       background-color: #6819809a;
       cursor: pointer;
       
+}
+
+main #span{
+     background-color: rgba(93, 86, 86, 0.242);
+     display: inline;
+     padding: 23px;
+     padding-top: 6px;
+     border-radius: 23px;
+     color: #934fa6;
+     width: 199px;
+     height: 43px;
+     margin-left:28px; 
+    
+}
+
+main p{
+        color: #ffffff;
 }
