@@ -4,7 +4,7 @@ body{
 }
 
 main{
-      padding: 93px;
+      padding: 33px;
       margin: 0px;
      display: flex;
      justify-content: space-around;
@@ -14,8 +14,8 @@ main{
 }
 
 main img{
-      height: 289px;
-      margin-bottom: -130px;
+      height: 229px;
+      margin-bottom: -90px;
 }
 
 #scor-div{
@@ -29,14 +29,18 @@ main img{
 }
 
 #p1{
-       width: 624px;
+       width: 384px;
+       color: #ffffff80;
+       font-size: 22px;
+       font-family: "Irish Grover", system-ui;
+
 }
 
 
 main h3{
       font-family: "Irish Grover", system-ui;
       font-weight: 400;
-      font-size: 53px;
+      font-size: 33px;
       display: flex;
       justify-content: center;
       color: #AA04D7;
@@ -51,10 +55,11 @@ main h1{
     padding-bottom: 18px;
 }
 .contener{
-     background-color: rgba(56, 53, 56, 0.16);
-     width: 40%;
+     background-color: rgba(154, 153, 154, 0.037);
+     width: 49%;
      padding: 23px;
      border-radius: 34px;
+     box-shadow:0px 0px 22px #ffffff1c;
 }
 .contener div{
       color: #AA04D7;
@@ -67,12 +72,12 @@ main h1{
 .carts{
       display: grid;
       grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(4,1fr);
       column-gap: 13px;
-      row-gap: 12px;
+      row-gap: 23px;
       padding: 40px;
       padding-top:12px;
       padding-bottom: 40px;
-      margin-top: -30px;
 }
 
 .cart{
@@ -80,13 +85,13 @@ main h1{
     margin: 0px;
     padding: 0px;
     border-radius: 12px;
-    height: 174px;
+    height: 134px;
 }
 
 .cart:hover{
     transition: 0.3s;
     scale: 1.06;
-    box-shadow: 0px 0px 16px rgba(80, 14, 137, 0.5);
+    box-shadow: 0px 0px 26px rgba(208, 27, 196, 0.619);
     cursor: pointer;
 }
 
@@ -126,11 +131,10 @@ main h1{
 main #span{
      background-color: rgba(93, 86, 86, 0.242);
      display: inline;
-     padding: 23px;
      padding-top: 6px;
      border-radius: 23px;
      color: #934fa6;
-     width: 199px;
+     width:119px;
      height: 43px;
      margin-left:28px; 
     
@@ -139,3 +143,4 @@ main #span{
 main p{
         color: #ffffff;
 }
+
